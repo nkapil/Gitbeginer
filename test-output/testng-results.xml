@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="12" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-30T19:47:35Z" name="Suite" finished-at="2019-07-30T19:47:35Z" duration-ms="216">
+    <groups>
+      <group name="Smoke">
+        <method signature="Car.login()[pri:0, instance:pckg1.Car@2118cddf]" name="login" class="pckg1.Car"/>
+        <method signature="Car.homePage()[pri:0, instance:pckg1.Car@2118cddf]" name="homePage" class="pckg1.Car"/>
+        <method signature="Bus.homePage()[pri:0, instance:pckg1.Bus@17a7f733]" name="homePage" class="pckg1.Bus"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2019-07-30T19:47:35Z" name="Automobile" finished-at="2019-07-30T19:47:35Z" duration-ms="34">
+      <class name="pckg1.Bike">
+        <test-method signature="login()[pri:0, instance:pckg1.Bike@68567e20]" started-at="2019-07-30T19:47:35Z" name="login" finished-at="2019-07-30T19:47:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="bfrMeth()[pri:0, instance:pckg1.Bike@68567e20]" started-at="2019-07-30T19:47:35Z" name="bfrMeth" finished-at="2019-07-30T19:47:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrMeth -->
+        <test-method is-config="true" signature="aftrMeth()[pri:0, instance:pckg1.Bike@68567e20]" started-at="2019-07-30T19:47:35Z" name="aftrMeth" finished-at="2019-07-30T19:47:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftrMeth -->
+        <test-method is-config="true" signature="bfrMeth()[pri:0, instance:pckg1.Bike@68567e20]" started-at="2019-07-30T19:47:35Z" name="bfrMeth" finished-at="2019-07-30T19:47:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrMeth -->
+        <test-method signature="logout()[pri:0, instance:pckg1.Bike@68567e20]" started-at="2019-07-30T19:47:35Z" name="logout" finished-at="2019-07-30T19:47:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="aftrMeth()[pri:0, instance:pckg1.Bike@68567e20]" started-at="2019-07-30T19:47:35Z" name="aftrMeth" finished-at="2019-07-30T19:47:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftrMeth -->
+      </class> <!-- pckg1.Bike -->
+      <class name="pckg1.Car">
+        <test-method is-config="true" signature="bfr1Suit()[pri:0, instance:pckg1.Car@2118cddf]" started-at="2019-07-30T19:47:35Z" name="bfr1Suit" finished-at="2019-07-30T19:47:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfr1Suit -->
+        <test-method signature="login()[pri:0, instance:pckg1.Car@2118cddf]" started-at="2019-07-30T19:47:35Z" name="login" finished-at="2019-07-30T19:47:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="homePage()[pri:0, instance:pckg1.Car@2118cddf]" started-at="2019-07-30T19:47:35Z" name="homePage" finished-at="2019-07-30T19:47:35Z" depends-on-methods="pckg1.Car.login" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="logout()[pri:0, instance:pckg1.Car@2118cddf]" started-at="2019-07-30T19:47:35Z" name="logout" finished-at="2019-07-30T19:47:35Z" depends-on-methods="pckg1.Car.homePage" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="aftr1Suit()[pri:0, instance:pckg1.Car@2118cddf]" started-at="2019-07-30T19:47:35Z" name="aftr1Suit" finished-at="2019-07-30T19:47:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftr1Suit -->
+      </class> <!-- pckg1.Car -->
+      <class name="pckg1.Bus">
+        <test-method signature="homePage()[pri:0, instance:pckg1.Bus@17a7f733]" started-at="2019-07-30T19:47:35Z" name="homePage" finished-at="2019-07-30T19:47:35Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="logout()[pri:0, instance:pckg1.Bus@17a7f733]" started-at="2019-07-30T19:47:35Z" name="logout" finished-at="2019-07-30T19:47:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- pckg1.Bus -->
+    </test> <!-- Automobile -->
+    <test started-at="2019-07-30T19:47:35Z" name="Generic" finished-at="2019-07-30T19:47:35Z" duration-ms="12">
+      <class name="pckg1.beginAuto">
+        <test-method is-config="true" signature="bfrTest()[pri:0, instance:pckg1.beginAuto@1fb700ee]" started-at="2019-07-30T19:47:35Z" name="bfrTest" finished-at="2019-07-30T19:47:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrTest -->
+        <test-method signature="autoMobile()[pri:0, instance:pckg1.beginAuto@1fb700ee]" started-at="2019-07-30T19:47:35Z" name="autoMobile" finished-at="2019-07-30T19:47:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoMobile -->
+        <test-method is-config="true" signature="aftTest()[pri:0, instance:pckg1.beginAuto@1fb700ee]" started-at="2019-07-30T19:47:35Z" name="aftTest" finished-at="2019-07-30T19:47:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftTest -->
+      </class> <!-- pckg1.beginAuto -->
+      <class name="pckg1.Car">
+        <test-method is-config="true" signature="bfrSuit()[pri:0, instance:pckg1.Car@2118cddf]" started-at="2019-07-30T19:47:35Z" name="bfrSuit" finished-at="2019-07-30T19:47:35Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrSuit -->
+        <test-method is-config="true" signature="aftrSuit()[pri:0, instance:pckg1.Car@2118cddf]" started-at="2019-07-30T19:47:35Z" name="aftrSuit" finished-at="2019-07-30T19:47:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftrSuit -->
+      </class> <!-- pckg1.Car -->
+      <class name="testng_pckg.first">
+        <test-method signature="demo()[pri:0, instance:testng_pckg.first@4f67eb2a]" started-at="2019-07-30T19:47:35Z" name="demo" finished-at="2019-07-30T19:47:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo2()[pri:0, instance:testng_pckg.first@4f67eb2a]" started-at="2019-07-30T19:47:35Z" name="demo2" finished-at="2019-07-30T19:47:35Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+      </class> <!-- testng_pckg.first -->
+    </test> <!-- Generic -->
+  </suite> <!-- Suite -->
+</testng-results>
